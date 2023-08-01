@@ -1,0 +1,17 @@
+body{
+    background-color: wheat;
+}
+.approval{
+    width: 900px;
+    height: 260px;
+    margin-top: 160px;
+    margin-left: 210px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: inset;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:black;
+}

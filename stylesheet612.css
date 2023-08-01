@@ -1,0 +1,111 @@
+body{
+    background-color: #F0F5F9;
+}
+.logo{
+    width: 100%;
+    height: 4cm;
+}
+.left{
+    width: 10%;
+    height: 4cm;
+    background-color: #C9D6DF;
+}
+.right{
+    width: 90%;
+    height: 4cm;
+    float: right;
+    margin-top: -4cm;
+    
+}
+.right img{
+    width: 100%;
+    height: 4cm;
+}
+.left img{
+    width: 100%;
+    height: 4cm;
+}
+.container{
+    width: 100%;
+    height: 10cm;
+}
+.rightcontainer{
+    width: 50%;
+    height: 10cm;
+}
+.leftcontainer{
+    width: 50%;
+    height: 15cm;
+    float: right;
+    margin-top: -11cm;
+    background-color: #F7F1E5;
+    text-align: center;
+}
+select{
+    width: 8cm;
+    height: 1cm;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.leftcal{
+    width: 40%;
+    
+}
+.rightcal{
+    width: 40%;
+    float: none;
+}
+span{
+    font-size: 17px;
+    font-weight: bold;
+}
+input{
+    width: 5cm;
+    height: 0.75cm;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.signature{
+    margin-bottom: -2cm;
+    float: left;
+}
+.rightcontainer button{
+    padding-right: 20px;
+    width: 4cm;
+    height: 1cm;
+    border-radius: 15px;
+    font-size: medium;
+    background-color: black;
+    color: white;
+
+}
+.leftcontainer img{
+    border-radius: 100px;
+    margin-top: 5px;
+    width: 5cm;
+    height: 5cm;
+}
+button:hover{
+    transform: scale(1.1);
+}
+input:hover{
+    transform: scale(1.1);
+}
+select:hover{
+    transform: scale(1.1);
+}
+.header{
+    margin-top: -0.55cm;
+    background-color:#1E2022;
+    
+}
+.header h1{
+    text-align: center;
+    color: white;
+}
+.d1 a{
+    text-decoration: none;
+    color: red;
+}

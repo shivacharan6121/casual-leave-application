@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="stylesheet612.css" rel="stylesheet">
+    <title>Create Data - PHP CRUD</title>
+</head>
+
+<body>
+<body>
+    <div class="logo">
+        <div class="left">
+            <img src="logo.jpg" alt="no image">
+        </div>
+        <div class="right">
+            <img src="header.gif" alt="no image">
+        </div>
+    </div>
+    <div class="header">
+        <h1>EARNED LEAVE APPLICATION</h1>
+    </div>
+    <form action="index321.php" method="POST">
+    <div class="container">
+        <div class="rightcontainer">
+        <div class="reason">
+            <span>&nbsp;&nbsp;&nbsp;REASON : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="reason">
+                <option value="">--selectoption--</option>
+                <option value="health">health</option>
+                <option value="vacation">vacation</option>
+                <option value= "personal">personal</option>
+            </select><br>
+            <small class="text-danger">
+                <?php echo "$reasonErr;" u?>
+            </small>
+            
+
+        </div>
+        <br><br>
+        <div class="type">
+            <span>&nbsp;&nbsp;LEAVE TYPE : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="leavetype">
+                <option value="">--selectoption--</option>
+                <option value="earned leaves">earned leaves</option>
+                
+            </select><br>
+            <small class="text-danger"><?php echo $leavetypeErr; ?></small>
+            
+        </div>
+        <br>
+        <br>
+
+        <div class="days">
+            <span><width: 12cm;>&nbsp;&nbsp;NO OF LEAVES :</width></span>&nbsp;&nbsp;
+            <input type="text" name="numberofdays"><br>
+            <small class="text-danger"><?php echo $numberofdaysErr; ?></small>
+        </div>
+        <br><br>
+        <div class="calander">
+            <div class="leftcal">
+                <span>&nbsp;&nbsp;FROM: </span>
+                <input type="datetime-local" name="from" ><br>
+                <small class="text-danger"><?php echo $fromErr; ?></small>
+            </div>
+            <br>
+            <div class="rightcal">
+                <span>TO: </span>
+                <input type="datetime-local" name="to" ><br>
+                <small class="text-danger"><?php echo $toErr; ?></small>
+            </div>
+            
+        </div>
+        <div class="signature">
+            <span>&nbsp;&nbsp;SIGNATURE : &nbsp;&nbsp;</span>
+            <input type="file" name="signature" value="<?= $signature; ?>"><br>
+            <small class="text-danger"><?php echo $signatureErr; ?></small>
+
+        </div>
+        <br><br><br><br><br>
+        <center><button>submit</button></center>
+        </div>
+        <br>
+        <div class="leftcontainer">
+            <center><img src="3135715.png"></center><br>
+             <span>EMPLOYEE ID:1001</span><br><br>
+            <span class="d1">NAME:S.NAGARAJU</span><br><br>
+            <span class="d1">DEPARTMENT:CSE</span><br><br>
+            <span class="d1">DESIGNATION:ASSOCIATE.PROF</span><br><br>
+            <span class="d1">PHN:99129589038</span>
+
+        </div>
+        <br>
+    </div>
+    <br>
+    
+    </form>
+</body>
+</html>
